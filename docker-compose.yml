@@ -28,7 +28,7 @@ services:
   ngrok:
     image: ngrok/ngrok:latest
     environment:
-        NGROK_AUTHTOKEN: '2Pp6aUl281Y9Luepv1lhOZzW3Eq_3GRXCsWe3e3QXNq2KoGq9'
+        NGROK_AUTHTOKEN: ''
     command: 'http web:3000 --domain=oyinda.ngrok.app'
     ports:
         - '4040:4040'
